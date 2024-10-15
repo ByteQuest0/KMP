@@ -19,7 +19,6 @@ def compute_lps(pattern):
                 length = lps[length - 1]
                 # Do not increment i here
             else:
-                lps[i] = 0
                 i += 1
     return lps
 
